@@ -5,6 +5,7 @@ import { GoogleGenAI } from "@google/genai";
 
 const app = express();
 const PORT = 3000;
+const API_URL = 'https://ai-hospital-command-center-idnm.onrender.com';
 
 app.use(express.json());
 
