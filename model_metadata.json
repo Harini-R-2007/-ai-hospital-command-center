@@ -1,0 +1,20 @@
+{
+  "model_type": "XGBoost",
+  "features": [
+    "day_of_week",
+    "month",
+    "temperature",
+    "humidity",
+    "is_holiday",
+    "virus_outbreak",
+    "previous_patients"
+  ],
+  "accuracy": 91.8127002437509,
+  "r2_score": 0.2635820044265773,
+  "mae": 17.624236712172696,
+  "n_estimators": 100,
+  "max_depth": 6,
+  "learning_rate": 0.1,
+  "training_date": "2026-07-25 02:56:48",
+  "total_samples": 1095
+}

@@ -1,0 +1,30 @@
+{
+  "day_of_week": {
+    "importance": 0.26391279697418213,
+    "description": "Day of the week (0=Monday to 6=Sunday)"
+  },
+  "month": {
+    "importance": 0.14059239625930786,
+    "description": "Month of the year (1-12)"
+  },
+  "temperature": {
+    "importance": 0.11130218207836151,
+    "description": "Average daily temperature in Celsius"
+  },
+  "humidity": {
+    "importance": 0.11898326128721237,
+    "description": "Average daily humidity percentage"
+  },
+  "is_holiday": {
+    "importance": 0.1259768307209015,
+    "description": "Whether the day is a public holiday"
+  },
+  "virus_outbreak": {
+    "importance": 0.11803771555423737,
+    "description": "Viral outbreak indicator (0=No, 1=Yes)"
+  },
+  "previous_patients": {
+    "importance": 0.1211947426199913,
+    "description": "Patient count from previous day"
+  }
+}
