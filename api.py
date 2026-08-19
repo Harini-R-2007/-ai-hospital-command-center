@@ -49,6 +49,10 @@ else:
     else:
         importance = {}
 
+# ============================================
+# ALL ROUTES - MAKE SURE THESE ARE ALL HERE!
+# ============================================
+
 @app.route('/', methods=['GET'])
 def home():
     return jsonify({
